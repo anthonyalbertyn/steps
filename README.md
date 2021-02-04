@@ -4,7 +4,7 @@ Coding challenge completed by: Anthony Albertyn
 
 ## Challenge
 
-Build a Steps component based on the horizontal Steps component from Ant Design: [[https://ant.design/components/steps/]]
+Build a Steps component based on the horizontal Steps component from [Ant Design] (https://ant.design/components/steps/)
 
 Your implimentation does not need all the capabilities of Ant Design Steps, so a simplified implementation will do.
 
