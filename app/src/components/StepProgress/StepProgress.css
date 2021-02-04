@@ -1,0 +1,52 @@
+.step-progress {
+  display: none;
+}
+
+@media screen and (min-width: 480px) {
+  .step-progress {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem 0 0.5rem 0;
+  }
+  .step-progress-line {
+    height: 1px;
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.45);
+  }
+  .step-progress-line.complete {
+    background-color: #1890ff;
+  }
+  .step-progress-item.first-item {
+    margin-left: 1rem;
+  }
+  .step-progress-item.last-item {
+    margin-right: 1rem;
+  }
+  .step-progress-item.last-item .step-progress-line {
+    display: none;
+  }
+}
+
+.step-progress-item {
+  display: inline-flex;
+  align-items: center;
+  flex: 1;
+  margin: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.step-progress-item.last-item {
+  flex: 0;
+}
+
+.step-progress-icon {
+  margin-right: 0.5rem;
+}
+
+.step-progress-item-label {
+  padding-right: 1rem;
+}
+
+.step-progress-item.last-item .step-progress-item-label {
+  padding-right: 0;
+}

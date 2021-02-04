@@ -1,0 +1,37 @@
+.progress-icon {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-icon .fa-stack {
+  display: inline-block;
+  height: 2rem;
+  line-height: 2rem;
+  position: relative;
+  vertical-align: middle;
+  width: 2rem;
+}
+
+.progress-icon.active {
+  color: #1890ff;
+}
+
+.progress-icon.complete {
+  color: #1890ff;
+}
+
+.progress-icon.not-complete {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.progress-icon .progress-icon-number {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.progress-icon.active .progress-icon-number {
+  color: #fff;
+}

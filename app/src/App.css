@@ -1,0 +1,30 @@
+.app {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.app h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.app p {
+  text-align: center;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.app p a {
+  color: #1890ff;
+}
+
+.app .test-content {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dashed #e9e9e9;
+  background-color: #fafafa;
+}
