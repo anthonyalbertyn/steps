@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import "./Step.css";
 
 const propTypes = {
-  children: PropTypes.node,
+  children: PropTypes.any,
 };
 
 function Step(props) {
